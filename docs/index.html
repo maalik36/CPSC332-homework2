@@ -1,30 +1,139 @@
 <!--Maalik Brown
 CPSC 223
-HW2
-Last Modified: 9/24/2022-->
+HW3
+Last Modified: 10/10/2022-->
 <!DOCTYPE html>
 <html>
+    <style>
+        .grid{
+            
+        }
+        .Intro{
+            text-align: left;
+            display: grid;
+            width: 400px;
+            position: relative;
+            top: 200px;
+        }
+        #Words{
+            color: green;
+        }
+        .Skill{
+            text-align: right;
+            display: grid;
+            right: 299px
+        }
+        .Go{
+            display: grid;
+            width: 500px;
+            height: 20px;
+            position: relative;
+            top: -200px;
+            font-size: 5px;
+            
+        }
+        th {
+            color:blueviolet;
+            text-align: right;
+        }
+        .One{
+            color: chocolate;
+            text-align: right;
+        }
+        .Two{
+            color: deeppink;
+            text-align: right;
+        }
+        .list{
+            color: seashell;
+            text-align: right;
+        }
+    </style>
 <head>
 <title>Introduction</title>
-<link rel="icon" type="image/x-con" href="M.jpeg"
+<link rel="icon" type="image/x-con" href="M.jpeg">
 </head>
+
 <body>
 
-<h1>Introduction</h1>
-<p>Hello! My Name is Maalik Brown. I am a junior at Gonzaga University studying Computer Science with a concentration in Sofware Application Development.</p>
-<img src="red and blue.webp">
-<ul>
+<h1 class="Intro">Introduction</h1>
+<p class="Intro" id="Words">Hello! My Name is Maalik Brown. I am a junior at Gonzaga University studying Computer Science with a concentration in Sofware Application Development.</p>
+<img src="red and blue.webp" class="Intro">
+<ul class="Skill">
     <li>Hard working</li>
     <li>Determined</li>
     <li>C++</li>
     <li>html</li>
     <li>Java</li>
 </ul>
-<a href="Career.html">Career</a>
+<section class="Skill" id="Career">
+<h3>Career Summary</h3>
+<table>
+    <tr>
+        <th>Role</th>
+        <td class="One">Event Usher</td>
+        <td class="Two">Academic Support</td>
+    </tr>
+    <tr>
+        <th>Year started</th>
+        <td class="One">2022</td>
+        <td class="Two">2022</td>
+    </tr>
+    <tr>
+        <th>Year ended</th>
+        <td class="One">current</td>
+        <td class="Two">current</td>
+    </tr>
+</table>
+</section>
+<section class="Skill" id="Education">
+    <h4>Education and Qualifications</h4>
+<table>
+    <section>Education</section>
+    <tr>
+        <th>Major</th>
+        <td class="One">Computer Science</td>
+
+    </tr>
+    <tr>
+        <th class="Two">Minor</th>
+        <td>Psychology</td>
+    </tr>
+    <tr>
+        <th>Concentration</th>
+        <td class="One">Sociology</td>
+        <td class="Two">Software Application Development</td>
+    </tr>
+</table>
+<table>
+    <section>Qualifications</section>
+    <tr>
+        <th>Qualifications</th>
+        <td>C++</td>
+        <td>html</td>
+        <td>Java</td>
+    </tr>
+</table>
+</section>
+<section class="Skill" id="Interest">
+    <h2>Interest and hobbies</h2>
+<ol class="list">
+    <li>Video games</li>
+    <li>Theater</li>
+    <li>Music</li>
+    <li>Making video games</li>
+    <li>hanging out with friends</li>
+</ol>
+<a href="Smash bros.jpg" target="_blank" width="1000" height="500">Picture of a video game</a>
+</section>
+<h2 class="Go">
+<a href="#Career" class="Go">Career</a>
 <div></div>
-<a href="Education.html">Education and Qualifications</a>
+<a href="#Education" class="Go">Education and Qualifications</a>
 <div></div>
-<a href="Interest.html">Interests and Hobbies</a>
+<a href="#Interest" class="Go">Interests and Hobbies</a>
+</h2>
+
 </body>
 
 
